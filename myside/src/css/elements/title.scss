@@ -1,7 +1,17 @@
 // TItle Scss
-.Jua_title {
-  font-family: "Jua", sans-serif;
-  line-height: 1.46;
-  letter-spacing: 2.4px;
-  font-size: 24px;
+.title_box {
+  position: relative;
+  // TItle
+  .Jua_title {
+    font-family: "Jua", sans-serif;
+    line-height: 1.46;
+    letter-spacing: 2.4px;
+    font-size: 24px;
+  }
+  // TItle 위에 동그라미 두개
+  .point {
+    position: absolute;
+    left: -12px;
+    top: -12px;
+  }
 }
