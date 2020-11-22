@@ -1,11 +1,8 @@
-import React from 'react';
+import React from "react";
+import Title from "../elements/Title";
 
 const Header = () => {
-    return (
-        <div>
-
-        </div>
-    );
+  return <Title name="Test" />;
 };
 
 export default Header;

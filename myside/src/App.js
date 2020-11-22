@@ -1,12 +1,9 @@
-import React from 'react';
+import React from "react";
+import Header from "./components/header/Header";
 import "./css/reset.css";
 
 function App() {
-  return (
-    <div>
-      TEST
-    </div>
-  );
+  return <Header />;
 }
 
 export default App;
